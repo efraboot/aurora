@@ -1,0 +1,10 @@
+{
+  "name": "aurora-el-camino-del-guerrero",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aventura musical por misiones. Juego y música creados por Efraín Cabrera.",
+  "scripts": {
+    "check": "node --check dist/main.js && node --check dist/audio.js && node --check dist/campaign.js && node --check dist/engine.js && node --check dist/world.js && node --check iniciar-local.mjs"
+  }
+}

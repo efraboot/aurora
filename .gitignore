@@ -1,0 +1,15 @@
+node_modules/
+.sites-local/
+.openai/
+work/
+tests/
+logs/
+archives/
+archive/
+.DS_Store
+Thumbs.db
+*.tar.gz
+*.zip
+*.log
+*.tmp
+dist/_qa*.html
