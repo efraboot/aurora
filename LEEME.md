@@ -4,6 +4,10 @@
 
 Campaña de aventura musical para computadora y celular. El chasqui recorre diez ambientes, recoge pergaminos, completa misiones y enfrenta jefes. La música acompaña cada nivel y se repite si necesitas más tiempo para completarlo.
 
+## Jugar en línea
+
+Abre **https://efraboot.github.io/aurora/** en computadora o celular. En celular, gira el dispositivo a horizontal y utiliza los controles en pantalla.
+
 ## Iniciar en computadora
 
 1. Si descargaste el ZIP, extráelo completo.
@@ -118,5 +122,6 @@ node iniciar-local.mjs --no-open --port 4174
 
 La comprobación de sintaxis no instala dependencias. El servidor admite rangos de audio y sirve únicamente dist/. Otro puerto genera un origen distinto para el guardado.
 
-**La publicación en GitHub todavía está pendiente.** El workflow se ha preparado en esta carpeta; crear el repositorio, elegir su visibilidad, subir los archivos y activar Pages son pasos posteriores. Consulta README.md antes de publicar.
+**Publicado en GitHub Pages:** https://efraboot.github.io/aurora/ · **Código y recursos:** https://github.com/efraboot/aurora. El workflow publica dist/ desde main; consulta README.md para actualizar el juego.
+
 

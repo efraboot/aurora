@@ -31,7 +31,7 @@ La suite actual usa audio y solicitudes simulados. Su registro incluye una huell
 
 La comprobación local de package.json v3 pasó para main.js, audio.js, campaign.js, engine.js, world.js e iniciar-local.mjs. Verifica sintaxis; no demuestra por sí sola que una campaña completa pueda terminarse.
 
-Se preparó .github/workflows/pages.yml conforme a la documentación oficial de GitHub Pages: carga de dist/ y despliegue estático con las acciones oficiales. No se creó repositorio, no se subieron archivos, no se ejecutó el workflow remoto y no hay una publicación confirmada.
+Se creó el repositorio público efraboot/aurora y se configuró Pages con GitHub Actions. El workflow publica dist/ con las acciones oficiales. El primer despliegue (38653313247, commit 6fc7bb2) terminó con estado Success en 49 segundos; el sitio abrió en https://efraboot.github.io/aurora/.
 
 ### Motor: 30 pruebas aprobadas
 
@@ -44,6 +44,8 @@ Para recorrer toda la campaña técnica se usan teletransportes entre sectores y
 Se generaron e inspeccionaron diez fondos y nueve jefes con transparencia mediante ChatGPT Images. Los prompts y destinos están en ARTE-V3.md. El contrato del dibujante se examinó con diez capítulos, nueve jefes y siete clases de ataque, sin coordenadas no finitas.
 
 En el navegador local se comprobaron el título sin duración fija, controles A/W separados, objetivos de misión, puerta de tres pergaminos, jefe y cambio de Sacrilegio a Abismo tras victoria. La pausa conserva solo el ajuste de efectos; no presenta volumen de música. También se comprobó la repetición real de Wiracocha sin cambiar de nivel, la victoria final, la celebración y la carga de la foto original. Las pruebas de arena utilizan requisitos de misión y salud reducida preparados por la interfaz temporal de QA; no se presentan como una partida completa.
+
+La vista táctil emulada muestra nombres de acciones e instrucciones sin exigir teclado. Al tocar Obsidiana, la munición pasó de 20 a 19; Magia redujo la energía de 100 a 75. El botón táctil Interactuar abrió la arena con tres pergaminos. Se revisó el cierre en una vista horizontal de 844 × 390 y en una vista estrecha: la foto, los cuatro enlaces y los personajes celebrando permanecen visibles. Se retiró la página de QA del contenido entregable.
 
 ## Antecedentes comprobados
 
@@ -65,4 +67,5 @@ El registro inicial contiene **32 comprobaciones** en Edge con teclado y emulaci
 
 No se realizó una partida humana continua de toda la campaña. Las pruebas de audio utilizan medios simulados. Los controles móviles se han comprobado por emulación en entregas anteriores; los teléfonos físicos, Safari/iOS y una conexión Wi-Fi real requieren prueba directa. La apertura manual del navegador mediante doble clic en INICIAR.cmd tampoco se ha automatizado: el servidor se examinó con **--no-open**.
 
-El workflow de Pages está preparado, sin prueba remota de despliegue. La dificultad y el ritmo de una campaña completa necesitan una partida real después de la validación técnica.
+El despliegue remoto terminó correctamente. Una lectura Git del repositorio confirmó 57 archivos, incluidos los dos marcadores de carpeta: los 36 recursos binarios coinciden exactamente con la copia local y el código coincide al normalizar CRLF/LF. La dificultad y el ritmo de una campaña completa necesitan una partida real después de la validación técnica.
+
